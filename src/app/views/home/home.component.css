@@ -1,0 +1,34 @@
+.jumbotron{
+    background-image: url(/assets/images/pexels-kampus-production-5940845.jpg);
+    background-size:100% ;
+    background-repeat: no-repeat;  
+    height: 480px;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+  /*  width: 100%;*/
+
+}
+
+
+footer{
+    position: relative;
+    background-color:  #003459;
+    height: 60px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+/*
+.online{
+    background-color:silver;
+    background-size:100% ;
+    background-repeat: no-repeat;  
+    height: 280px;
+
+
+}
+
+*/

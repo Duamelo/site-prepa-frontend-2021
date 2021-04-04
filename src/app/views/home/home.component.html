@@ -1,0 +1,268 @@
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#003459 ; ">
+    <a class="navbar-brand ml-sm-4" style="color: white;" href="#">Prepa-Forum</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active ml-sm-4">
+          <a class="nav-link" style="color: white;" routerLink="/accueil">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Forum
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" routerLink="/mathématiques" >Mathématiques</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item"  routerLink="/physiques" >Physiques</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item"  routerLink="/informatiques" >Informatiques</a>
+            </div>
+          </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+
+        <button class="btn my-2 my-sm-0 mr-sm-2" type="submit" style="border-color: white; color: white;">Connexion</button>
+        
+        <input class="form-control mr-sm-2" type="search" placeholder="sujet particulier ?" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-color: white; color: white; ">Recherche</button>
+      </form>
+    </div>
+</nav>
+
+  <div class="jumbotron jumbotron-fluid ">
+    <div class="container  container-fluid ml-sm-4">
+        
+         <!--   <h1 class="display-4" style="font-size: 40px; color:black">Salut les classes préparatoires de l'IMSP</h1> -->
+           
+          <!--  <hr class="my-4"> -->
+          <!--  <p class="lead" style="color: black; position: relative; top: 10rem; ">Il s'agit ici d'un outils de discussion mis en place pour vous aider à résoudre vos <br>
+              problèmes dans n'importe quel domaine des sciences</p> -->
+         <!--  <p style="color: black; "> Vous êtes donc invités et encouragés à poser autant de problèmes que possible afin d'y trouver solution</p> --> 
+            <a class="btn btn-primary btn-lg" href="#" role="button" style="background-color: #003459; position: relative; top: 300px;">Forum Mathématiques</a>
+       
+       
+    </div>
+  </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <table class="table mb-5" style="background-color: white;">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Catégories principales</th>
+                       <!----> <th scope="col"> sujets</th>
+                        <th scope="col">messages</th>
+                        <th scope="col">derniers messages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                          <br>
+                          <a href="#"> Mathématiques </a>
+                          </th>
+                        <td style="color: red; font-style: italic;font-size: 15px;">25
+                          <br>
+                          sujets
+                        </td>
+                        <td style="color: red;">421
+                          <br>
+                          messages
+                        </td>
+                        <td>
+                          <p>
+                            intégrale curviligne
+                            
+                            <br>
+                            par <span style="color: red;"> Ange Moule </span>  
+                            <br>
+                            26 Mar 2021, 17:19
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                        <a href="#">
+                          <br>
+                          Physiques 
+                        </a>
+                          
+                        </th>
+                        <td style="color: red; font-style: italic;font-size: 15px;">32
+                          <br>
+                          sujets
+                        </td>
+                        <td style="color: red;">240
+                          <br>
+                          messages
+                        </td>
+                        <td>
+                          <p>
+                           Exercice toboggan
+                            
+                            <br>
+                            par <span style="color: red;"> Rail Moibi </span>  
+                            <br>
+                            21 Mar 2021, 14:19
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          <a href="#">
+                            <br>
+                            Informatiques
+                          </a>
+                          </th>
+                          <td style="color: red; font-style: italic;font-size: 15px;">40
+                            <br>
+                            sujets
+                          </td>
+                          <td style="color: red;">322
+                            <br>
+                            messages
+                          </td>
+                          <td>
+                            <p>
+                             callback en node js
+                              
+                              <br>
+                              par <span style="color: red;"> David Dosseh </span>  
+                              <br>
+                              16 Avr 2021, 10:30
+                            </p>
+                          </td>
+                      </tr>
+                </tbody>
+              </table>
+
+
+
+              <!--  --------------------------------------------------------------------------------------------------------------              -->
+              
+              <table class="table mb-5" style="background-color: white;">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Autres Catégories</th>
+                       <!----> <th scope="col"> sujets</th>
+                        <th scope="col">messages</th>
+                        <th scope="col">derniers messages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                          <br>
+                          <a href="#"> Concours ICPC </a>
+                          </th>
+                        <td style="color: red; font-style: italic;font-size: 15px;">25
+                          <br>
+                          sujets
+                        </td>
+                        <td style="color: red;">421
+                          <br>
+                          messages
+                        </td>
+                        <td>
+                          <p>
+                            tris et complexité
+                            
+                            <br>
+                            par <span style="color: red;"> Ange Moule </span>  
+                            <br>
+                            26 Mar 2021, 17:19
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                        <a href="#">
+                          <br>
+                          Concours X 
+                        </a>
+                          
+                        </th>
+                        <td style="color: red; font-style: italic;font-size: 15px;">32
+                          <br>
+                          sujets
+                        </td>
+                        <td style="color: red;">240
+                          <br>
+                          messages
+                        </td>
+                        <td>
+                          <p>
+                           épreuve mines ponts 2017 maths
+                            
+                            <br>
+                            par <span style="color: red;"> Rail Moibi </span>  
+                            <br>
+                            21 Mar 2021, 14:19
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          <a href="#">
+                            <br>
+                            Coin Projet
+                          </a>
+                          </th>
+                          <td style="color: red; font-style: italic;font-size: 15px;">40
+                            <br>
+                            sujets
+                          </td>
+                          <td style="color: red;">322
+                            <br>
+                            messages
+                          </td>
+                          <td>
+                            <p>
+                             projet megalo
+                              
+                              <br>
+                              par <span style="color: red;"> David Dosseh </span>  
+                              <br>
+                              16 Avr 2021, 10:30
+                            </p>
+                          </td>
+                      </tr>
+                </tbody>
+              </table>
+        </div>
+
+
+        <div class="col-md-3">
+
+        </div>
+
+      
+    </div>
+</div>
+
+<div class="container-fluid online">
+  <div class="row">
+   
+  </div>
+  <hr>
+</div>
+
+
+
+
+
+
+
+
+<footer>
+  <p>© 2021 Club Informatiques IMSP</p>
+
+  <p>webm@ster (+229 61088061) | Webmail | Formations | International Centre for Theoretical Physics | Université d'Abomey-Calavi</p>
+  
+</footer>
