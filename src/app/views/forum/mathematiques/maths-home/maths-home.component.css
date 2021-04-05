@@ -1,0 +1,11 @@
+.jumbotron{
+    background-image: url(/assets/images/pexels-karolina-grabowska-6256066.jpg);
+    background-size:100% ;
+    background-repeat: no-repeat;  
+    height: 200px;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+  /*  width: 100%;*/
+
+}

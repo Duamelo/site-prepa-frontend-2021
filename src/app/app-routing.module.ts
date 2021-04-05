@@ -6,15 +6,20 @@ import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
 
-  /*{
-    path: 'login', loadChildren: ()=> import('./views/session/login/login.component').then(m=> m.LoginComponent)
-  },*/
   {
     path:'', component: HomeComponent
   },
   {
-    path:'accueil',
-    component:HomeComponent
+    path:'accueil', component: HomeComponent
+  },
+  {
+    path: 'forum', loadChildren: ()=> import('./views/forum/mathematiques/mathematiques.module').then(m => m.MathematiquesModule)
+  },
+  {
+    path: 'forum', loadChildren: ()=> import('./views/forum/physiques/physiques.module').then(m => m.PhysiquesModule)
+  },
+  {
+    path: 'forum', loadChildren: ()=> import('./views/forum/informatique/informatique.module').then(m => m.InformatiqueModule)
   }
 ];
 
