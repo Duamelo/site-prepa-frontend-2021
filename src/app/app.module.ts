@@ -7,13 +7,18 @@ import { HomeComponent } from './views/home/home.component';
 import { SessionModule } from './views/session/session.module';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+//import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { RegisterComponent } from './register/register.component';
+//import { ModalModule } from 'ngx-bootstrap/modal';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
 
   ],
   imports: [
@@ -22,7 +27,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     SessionModule,
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    ModalModule
   ],
   providers: [],
   bootstrap: [AppComponent]
